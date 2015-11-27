@@ -8,9 +8,9 @@ Created on 2015/11/26
 import os
 from glob import glob
 
-IMMWEB_TOPDIR   = "/Users/rsaito/Desktop/UCSD_IMM_ver0p7"
+IMMWEB_TOPDIR   = "/Users/rsaito/Sites/ucsd-imm.github.io/Ver0p7"
 REPLACE_STR     = "<!-- main_area content -->"
-TEMPLATE_FILE   = os.path.join(IMMWEB_TOPDIR, "TEMPLATES", "template1.html")
+TEMPLATE_FILE   = os.path.join(IMMWEB_TOPDIR, "TEMPLATES", "ucsd_imm1.html")
 INPUT_HTML_DIR  = os.path.join(IMMWEB_TOPDIR, "HTMLi")
 OUTPUT_HTML_DIR = os.path.join(IMMWEB_TOPDIR, "HTMLo")
 
