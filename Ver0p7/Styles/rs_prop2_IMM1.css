@@ -1,0 +1,160 @@
+
+/* Force next block */
+div.clear {
+
+    clear: both;
+
+}
+
+/* Empty block */
+div.empty_bar {
+
+    clear: both;
+    height: 10px;
+}
+
+/* Whole things come in here */
+div#omega {
+
+   background-color: #000080;
+
+}
+
+div#title_container {
+
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
+
+}
+
+/* This should be inside title_container (Left) */
+div#title_logo {
+
+    float: left;
+    width: 220px; /* 160px */
+
+}
+
+/* This should be inside title_container (Right) */
+div#main_title {
+
+    margin-left: 250px; /* 210px */
+    font-family: "Times New Roman";
+ 
+}
+
+div#navigation_container {
+
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #000080
+
+}
+
+ul#navigation_bar {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul#navigation_bar li {
+
+    list-style-type: none;
+    float: left;
+    margin: 0.3em;
+    border: 1px gray solid;
+
+}
+
+ul#navigation_bar li a {
+
+   text-decoration: none;
+   display: block;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: #ffffff;
+
+}
+
+ul#navigation_bar li a:hover {
+
+   background-color: blue;
+   color: white;
+
+}
+
+div#main_container {
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top : 10px;
+    /* background-color: #ddeeff; */
+
+}
+
+/* This should be inside main_container (Left) */
+div#sidebar {
+
+    float: left;
+    width: 15%;
+    background-color: #ffffff;
+
+}
+
+ul.each_list {
+
+    margin-left: 0.5em;
+    padding: 0em;
+}
+
+ul.each_list li {
+
+    list-style-type: square;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0em;
+    font-size: small;
+}
+
+ul.each_list li a {
+
+   text-decoration: none;
+   font-weight: Bold;
+
+}
+
+/* This should be inside main_container (Right) */
+div#main_area {
+
+    margin-left: 16%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #ffffff;
+
+}
+
+/* This should be inside sidebar */
+div.sidebar_categ {
+
+   margin-left:  3px;
+   margin-right: 10px;
+   background-color: #F5DEB3;
+   color: #888888;
+   font-weight: bold;
+
+
+}
+
+
+div#footarea {
+
+    margin-top : 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #4682B4;
+
+}
+
+
