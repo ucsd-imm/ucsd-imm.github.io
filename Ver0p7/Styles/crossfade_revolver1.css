@@ -1,0 +1,8 @@
+
+#crossfade_revolver { position: relative; }
+#crossfade_revolver img { position: absolute;
+	          z-index: 1;
+			  background-color: white;
+		    }
+#crossfade_revolver img.active{ z-index: 3 }
+
