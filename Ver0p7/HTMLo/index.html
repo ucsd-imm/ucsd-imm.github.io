@@ -1,9 +1,13 @@
 <html>
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" href="../Styles/rs_prop2_IMM1.css" type="text/css"/> 
+<link rel="stylesheet" href="../Styles/each_page_style1_IMM1.css" type="text/css"/>
+<link rel="stylesheet" href="../styles/crossfade_revolver1.css" type="text/css"/>
+<script src="../JvScript/lib/jquery-2.1.4.min.js" type="text/javascript"></script> 
+<script src="../JvScript/imm/crossfade_revolve_images1.js" type="text/javascript"></script> 
 <title>Institute of Metabolomic Medicine, UCSD, temporary site</title>
-<link rel="stylesheet" href="../Styles/rs_prop2_IMM1.css" type="text/css"> 
-<link rel="stylesheet" href="../Styles/each_page_style1_IMM1.css" type="text/css"> 
 </head>
 
 <body>
@@ -106,8 +110,20 @@ Our body contains thousands of different metabolites which are involved in vario
 
 <H1>Our methodology</H1>
 <p>
-<img src="../Pics/Facility/GCMSPC1_2.png" align="left">
-	
+<div id="crossfade_revolver">
+   <img class="active" src="../Pics/Facility/ucsdimmweb_image_gcms1.png" alt="Metabolome" title="GC-MS"/>
+   <!-- Initially, the first image is assigned to the class "active"? -->
+   <img src="../Pics/Facility/ucsdimmweb_image_stats1.png" alt="Statistics" title="Statistics"/>   
+   <img src="../Pics/Facility/ucsdimmweb_image_tube1.png" alt="Biochemistry" title="Biological experiments"/>
+   <img src="../Pics/Facility/ucsdimmweb_image_binfo1.png" alt="Bioinformatics" title="Bioinformatics"/>
+   <img src="../Pics/Facility/ucsdimmweb_image_mice1.png" alt="Animal model" title="Mice"/>
+</div>
+
+<div class="empty"
+     style="width:320px; height:180px; float: left;">
+&nbsp;
+</div>
+
 Our team is multidisciplinary - We have physicians, biochemists,
 molecular biologists, statisticians and computational biologists as
 our members. We employ various methods to investigate metabolites and
@@ -116,10 +132,19 @@ to measure ~100 metabolites in urine or blood of the patients
 in high-throughput manner.
 We employ various state-of-art statistical model to characterize their profiles,
 and to predict outcome of patients. We also use bioinformatics to computationally
-predict important enzymes and proteins. We validate the predictions using mouse models.</p>
+predict important enzymes and proteins. We validate the predictions using mouse models.
+
+</p>
 
 <H1>Exciting ongoing projects</H1>
 <p>Diabetic kidney disease is the leading cause of ESRD, but few biomarkers of diabetic kidney disease are available. We used gas chromatography-mass spectrometry to quantify 94 urine metabolites. We found that 13 metabolites were significantly reduced in the patients with diabetic kidney disease. Notably, organic anion transporter-1 (OAT1) knockout mice expressed a similar pattern of reduced levels of urinary organic acids, and human kidney tissue from patients with diabetic nephropathy demonstrated lower gene expression of OAT1 and OAT3. Analysis of bioinformatics data indicated that 12 of the 13 differentially expressed metabolites are linked to mitochondrial metabolism and suggested global suppression of mitochondrial activity in diabetic kidney disease. We suggest that urine metabolomics is a reliable source for biomarkers of diabetic complications, and our data suggest that renal organic ion transport and mitochondrial function are dysregulated in diabetic kidney disease.</p>
+
+<script type="text/javascript">
+$(document).ready(function(){
+   // run every 5000 milliseconds
+   setInterval('crossfade_revolve_images()', 5000);
+})
+</script>
 
 
 <!-- End of main_area -->
