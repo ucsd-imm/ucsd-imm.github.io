@@ -53,7 +53,7 @@ a.readmore:hover{ color:#ffc103; font-size:14px; font-weight:normal;}
 
 .footer-strip-wrapper{width:960px; height:auto; background:#22a8f0; overflow:hidden; margin: 0 auto;}
 .footer-strip{width:670px; margin:0 auto; margin-top:20px; margin-bottom:20px;}
-.footer-strip p{color:#ffffff;}
+.footer-strip p{color:#ffffff; text-align: center;}
 a.footerlink{color:#ffffff;}
 a.footerlink:hover{color:#222156;}
 
