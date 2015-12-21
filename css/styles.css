@@ -13,7 +13,7 @@ image{border:none;}
 .logo{position:relative; float:left;}
 .logo h1{font-family: 'Playfair Display', serif; font-size:24px; color:#ffffff; font-weight:normal; padding-top:10px; padding-left: 30px;} 
 
-.menu{float:right; padding-top:30px; padding-left: 300px;}
+.menu{float:right; padding-top:30px; padding-left: 500px;}
 .menu ul{list-style:none;}
 .menu li{float:left; width:70px; height:30px; padding-right:14px;}
 .menu li a{font-size:12px; font-weight:normal; color:#ffffff; width:80px; height:30px; line-height:30px; text-align:center; display:block;}
